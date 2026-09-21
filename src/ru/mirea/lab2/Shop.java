@@ -20,7 +20,6 @@ public class Shop {
         int indexToRemove = -1;
         String searchKey = (brand + " " + model).toLowerCase();
 
-        // Ищем, под каким индексом лежит нужный компьютер
         for (int i = 0; i < count; i++) {
             if (computers[i].toLowerCase().startsWith(searchKey)) {
                 indexToRemove = i;
@@ -40,7 +39,6 @@ public class Shop {
         }
     }
 
-    // Метод поиска компьютера
     public String findComputer(String brand, String model) {
         String searchKey = (brand + " " + model).toLowerCase();
         for (int i = 0; i < count; i++) {
