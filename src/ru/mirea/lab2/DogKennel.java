@@ -6,9 +6,15 @@ public class DogKennel {
     private int dogCount = 0;
     public void addDogs(Dog... newDogs) {
         for (Dog d : newDogs) {
-            kennel.add(d);
+            if (dogCount >= kennel.length) {
+                System.out.println("Питомник переполнен! Не удалось добавить: " + d.getName());
+                break;
+            }
+            kennel[dogCount] = d; // Добавляем собаку в массив
+            dogCount++; // Сдвигаем счетчик свободных мест
         }
     }
+    // Вывод всех собак
     public void printDogs() {
         System.out.println("Список собак в питомнике:");
         for (Dog d : kennel) {
