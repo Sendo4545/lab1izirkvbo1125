@@ -21,8 +21,10 @@ public class DogKennel {
             System.out.println(kennel[i]);
         }
     }
+
     public static void main(String[] args) {
         DogKennel kennel = new DogKennel();
+
         Dog d1 = new Dog("Рекс", 3);
         Dog d2 = new Dog("Шарик", 5);
         Dog d3 = new Dog("Бобик", 2);
