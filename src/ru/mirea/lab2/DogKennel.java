@@ -1,5 +1,4 @@
 package ru.mirea.lab2;
-import java.util.ArrayList;
 
 public class DogKennel {
     private Dog[] kennel = new Dog[50];
@@ -10,11 +9,10 @@ public class DogKennel {
                 System.out.println("Питомник переполнен! Не удалось добавить: " + d.getName());
                 break;
             }
-            kennel[dogCount] = d; // Добавляем собаку в массив
-            dogCount++; // Сдвигаем счетчик свободных мест
+            kennel[dogCount] = d;
+            dogCount++;
         }
     }
-    // Вывод всех собак
     public void printDogs() {
         System.out.println("Список собак в питомнике (Всего: " + dogCount + "):");
         for (int i = 0; i < dogCount; i++) {
