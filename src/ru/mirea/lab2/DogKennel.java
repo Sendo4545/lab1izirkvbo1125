@@ -26,8 +26,6 @@ public class DogKennel {
         Dog d1 = new Dog("Рекс", 3);
         Dog d2 = new Dog("Шарик", 5);
         Dog d3 = new Dog("Бобик", 2);
-
-        // Передаем собак через запятую
         kennel.addDogs(d1, d2, d3);
         kennel.printDogs();
     }
