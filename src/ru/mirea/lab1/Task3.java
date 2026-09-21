@@ -8,8 +8,8 @@ public class Task3 {
             sum += numbers[i];
         }
         double average = (double) sum / numbers.length;
-        System.out.println("Сумма элементов массива: " + sum);
-        System.out.println("Среднее арифметическое: " + average);
+        System.out.println("Сумма элементов массива = " + sum);
+        System.out.println("Среднее арифметическое = " + average);
     }
 }
 

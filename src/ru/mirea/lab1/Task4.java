@@ -33,7 +33,6 @@ public class Task4 {
                 mini = nums[m];
             }
         }
-        System.out.println("\n--- Результаты ---");
         System.out.println("Сумма (через while): " + sum1);
         System.out.println("Сумма (через do-while): " + sum2);
         System.out.println("Максимальный элемент: " + maxx);

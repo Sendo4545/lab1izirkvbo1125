@@ -14,6 +14,6 @@ public class Task7 {
     }
     public static void main(String[] args){
         int test = 6;
-        System.out.println("Факториал " + test + " = " + Factorial(test));
+        System.out.println("Факториал числа " + test + " = " + Factorial(test));
     }
 }
