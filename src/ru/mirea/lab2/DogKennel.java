@@ -2,7 +2,8 @@ package ru.mirea.lab2;
 import java.util.ArrayList;
 
 public class DogKennel {
-    private ArrayList<Dog> kennel = new ArrayList<>();
+    private Dog[] kennel = new Dog[50];
+    private int dogCount = 0;
     public void addDogs(Dog... newDogs) {
         for (Dog d : newDogs) {
             kennel.add(d);
