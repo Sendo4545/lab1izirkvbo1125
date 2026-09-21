@@ -16,9 +16,9 @@ public class DogKennel {
     }
     // Вывод всех собак
     public void printDogs() {
-        System.out.println("Список собак в питомнике:");
-        for (Dog d : kennel) {
-            System.out.println(d);
+        System.out.println("Список собак в питомнике (Всего: " + dogCount + "):");
+        for (int i = 0; i < dogCount; i++) {
+            System.out.println(kennel[i]);
         }
     }
     public static void main(String[] args) {
