@@ -55,7 +55,6 @@ public class WordReader {
             consoleScanner.close();
             return;
         }
-
         String[] test = fileContent.split("\\s+");
         StringBuilder output = getLine(test);
         System.out.println(output.toString());
