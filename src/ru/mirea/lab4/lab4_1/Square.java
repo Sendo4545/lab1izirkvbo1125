@@ -11,7 +11,7 @@ public class Square extends Rectangle {
         return "Квадрат";
     }
     public Square(double side) {
-        super(side, side,"RED", true); // Выставляем дефолтные значения "RED" и true
+        super(side, side,"RED", true);
         this.side = side;
     }
     @Override
