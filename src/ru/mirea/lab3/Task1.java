@@ -7,7 +7,7 @@ public class Task1 {
         int size = 5;
         double[] array1 = new double[size];
         for (int i = 0; i < size; i++) {
-            array1[i] = Math.random() * 100; // Числа от 0.0 до 100.0
+            array1[i] = Math.random() * 100; 
         }
         System.out.println("Массив 1 до сортировки:");
         System.out.println(Arrays.toString(array1));
