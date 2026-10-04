@@ -3,7 +3,7 @@ package ru.mirea.lab3;
 public class Circle {
     private Point center;
     private double radius;
-    private double length; // длина окружности
+    private double length;
 
     public Circle(double x, double y, double radius) {
         this.center = new Point(x, y);
