@@ -19,5 +19,4 @@ public class Task9 {
         int b = 1;
         System.out.print(ZerosOnes(a,b));
     }
-
 }
