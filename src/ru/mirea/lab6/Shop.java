@@ -1,8 +1,8 @@
 package ru.mirea.lab6;
 
 public class Shop implements Printable{
-    private String name;
-    private String address;
+    private final String name;
+    private final String address;
     public Shop(String name, String address){
         this.name = name;
         this.address = address;

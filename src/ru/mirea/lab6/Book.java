@@ -1,9 +1,9 @@
 package ru.mirea.lab6;
 
 public class Book implements Printable {
-    private String author;
-    private String name;
-    private int year;
+    private final String author;
+    private final String name;
+    private final int year;
     public Book(String author, String name, int year){
         this.author = author;
         this.name = name;
