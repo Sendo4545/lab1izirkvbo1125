@@ -34,13 +34,12 @@ public class Task4 {
         if (evenCount == 0) {
             System.out.println("Чётных элементов в первом массиве нет.");
         } else {
-            // 2. Создаем второй массив точного размера
             int[] secondArray = new int[evenCount];
             int index = 0;
             for (int num : firstArray) {
                 if (num % 2 == 0) {
                     secondArray[index] = num;
-                    index++; // Сдвигаем указатель для следующего чётного числа
+                    index++;
                 }
             }
             System.out.println("Второй массив: " + Arrays.toString(secondArray));

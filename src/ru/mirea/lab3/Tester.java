@@ -49,11 +49,10 @@ public class Tester {
         Random rand = new Random();
         Tester tester = new Tester(4);
 
-        // Инициализация полей случайными числами
         for (int i = 0; i < 4; i++) {
             double x = rand.nextDouble() * 10;
             double y = rand.nextDouble() * 10;
-            double radius = rand.nextDouble() * 5 + 1; // Радиус от 1 до 6
+            double radius = rand.nextDouble() * 5 + 1;
             tester.addCircle(new Circle(x, y, radius));
         }
 
